@@ -9,7 +9,7 @@ export class CarComponent {
 	public car = {
 		name: 'Tesla',
 		mileage: 100,
-		tank: 100,
+		tank: 30,
 		gas: 30,
 		specifications: ['Двигатель 2 литра', 'максимальная скорость 200 км/ч']
 	};

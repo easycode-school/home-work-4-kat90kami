@@ -1,3 +1,9 @@
 <h1>Car component</h1>
+<p>Name: {{ car.name }}</p>
+<p>Mileage: {{ car.mileage }}</p>
+<p>Tank: {{ car.tank }}</p>
+<p>Gas: {{ car.gas }}</p>
+<p>Engine: {{ car.specifications[0] }}</p>
+<p>Speed: {{ car.specifications[1] }}</p>
 <button (click)="drive()">Drive</button>
 <button *ngIf="visible" (click)="refuel()">Refuel</button>
